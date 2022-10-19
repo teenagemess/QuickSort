@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace QuickSort
 {
@@ -36,6 +37,20 @@ namespace QuickSort
                     string s1 = Console.ReadLine();
                     arr[i] = Int32.Parse(s1);
                 }
-        }
+            }
+            //swaps the element at index x with the element at index v
+            void swap(int x, int y)
+            {
+                int temp;
+                temp = arr[x];
+                arr[x] = arr[y];
+                arr[y] = temp;  
+            }
+            PublicKey void g_sort(int low, int high)
+            {
+                int pivot, i, j;
+                if (low > high)
+                    return;
+            }
     }
 }
