@@ -71,7 +71,7 @@ namespace QuickSort
                     i++;
                     cmp_count++;
                 }
-                cmp_count = 0;
+                
 
                
             }
